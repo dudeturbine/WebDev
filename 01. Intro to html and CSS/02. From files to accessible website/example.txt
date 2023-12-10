@@ -1,0 +1,6 @@
+https://www.youtube.com/watch?v=5iUB31h2Hzs&list=PLoYCgNOIyGAB_8_iq1cL8MVeun7cB6eNc&index=4
+
+- Lots of ways to do it. Easy simple way for beginners:
+    - Buy a domain name eg iwantmyname.com
+    - Buy a web hosting plan, so you have a server that hosts your website eg hostgator
+    - Upload website files to server and refer it to domain name and it's all done
