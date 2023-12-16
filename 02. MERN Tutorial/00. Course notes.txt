@@ -1,0 +1,23 @@
+1. MERN Stack Tutorial #2 - Express App Setup
+https://www.youtube.com/watch?v=8DploTqLstE&list=PL4cUxeGkcC9iJ_KkrkBZWZRHVwnzLIoUE&index=2
+
+- Create the backend folder.
+- Create server.js file.
+- In terminal navigate to backend to create package.json to allow keeping track of dependencies and register customer scripts.
+- Use node package manager, executing 'npm init' (can add -y on the end to use all default options).
+- Install the express app with 'npm install express' (this creates the node_modules folder).
+- Create the express application in the server.js file.
+- 'npm install -g nodemon' to install nodemon globally which provides live refreshing while developing.
+- Can create a shortcut to run the server file by adding "dev" to scripts in the package.json file, so now we can just call "nm run dev" and it will run the nodemon on server.js.
+
+- Port number is hard coded, will want constants to be in an environment variable to hide things like database connection strings or authentication secrets. We create a .env file 
+    in backend, which should be part of the git ignore.
+- Requires .env to be installed into project, 'npm install dotenv'.
+- dotenv is a package that loads environment variables from the .env file into a process.env object in our js file.
+- At this point, we can only execute get requests by refreshing our browser. Eventually we'll need some front end js to make other requests (post, delete, patch), but while we don't
+    have a front end we can use Postman to test these requests, simulating reqests to our server while testing routes for our API.
+- Open Postman, created my "MERN app" collection and added a request, using get and entering localhost:4000\ which showed the message in the server.js file. nodemon needs to be running.
+- Lastly, register some mmiddleware (anything executed between getting a request and sending a response).
+
+2. Setting up API routes
+https://www.youtube.com/watch?v=Ll6knx7sFis&list=PL4cUxeGkcC9iJ_KkrkBZWZRHVwnzLIoUE&index=3
