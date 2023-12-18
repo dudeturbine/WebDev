@@ -1,1 +1,3 @@
 Projects followed from freeCodeCamp course: https://www.youtube.com/watch?v=3PHXvlpOkf4&t=421s
+
+These projects come with a stylesheet, so they focus more on the interaction of html and javascript
